@@ -1,0 +1,52 @@
+/*
+Use of this source code is governed by an AL-1S license that can be found in the LICENSE file
+*/
+
+/* BACKGROUD PHASE */
+.d-stdback {
+    background: #e0eeec;
+}
+
+/* PLACEMENT PHASE */
+.d-fill {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-padder {
+    padding: 20px;
+}
+
+
+/* TEXT PHASE */
+.d-title {
+    font-size: min(9vw, 9vh, 4.5em);
+    font-weight: bold;
+}
+
+.d-subtitle {
+    margin-top: .3em;
+    line-height: 1.25em;
+    font-size: min(5vw, 5vh, 2.5em);
+}
+
+.d-tcenter {
+    text-align: center;
+}

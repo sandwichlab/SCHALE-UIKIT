@@ -1,0 +1,90 @@
+/*
+Use of this source code is governed by an AL-1S license that can be found in the LICENSE file
+*/
+
+/* GRID PHASE */
+.mx-tgrid {
+    display: block;
+}
+
+.mx-tgrid > .mx-tgrid-skewer {
+    transform: skew(-10deg);
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .9);
+    border: .1px solid lightgray;
+    border-radius: .3em;
+    margin: 0 10%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+                rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+}
+
+.mx-tgrid-skewer > .mx-tgrid-body {
+    transform: skew(10deg);
+    margin-left: -10%;
+    margin-right: -10%;
+    padding: 3px 10px;
+}
+
+/* BUTTON PHASE */
+button.mx-button {
+    background: none;
+    border: none;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+button.mx-button:hover {
+    transform: scale(.95, .95);
+}
+
+button.mx-button > .mx-button-skewer {
+    transform: skew(-10deg);
+    overflow: hidden;
+    background-color: white;
+    border: .1px solid lightgray;
+    border-radius: 10px;
+    margin: 0 10%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+                rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+}
+
+button.mx-button .mx-button-counter {
+    position: relative;
+    transform: skew(10deg);
+    margin-left: -10%;
+    margin-right: -10%;
+    padding: 1em 2.3em 1em 2em;
+    width: max-content;
+    background: rgb(240, 231, 110);
+}
+
+button.mx-button .mx-button-trinity-1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url('./res/mx-btn.svg') no-repeat -40%;
+}
+
+button.mx-button .mx-button-trinity-2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url('./res/mx-btn.svg') no-repeat -30%;
+    transform: scale(-1, -1);
+}
+
+button.mx-button .mx-button-body {
+    color: gray;
+    font-family: "경기천년제목", Bold;
+    font-size: larger;
+    min-width: max-content;
+    text-align: center;
+    min-width: 2em;
+}
+
+button.mx-button.yellow .mx-button-body {
+}

@@ -1,0 +1,79 @@
+/*
+Use of this source code is governed by an AL-1S license that can be found in the LICENSE file
+*/
+
+/* TEXT PHASE */
+.shittim-text-bright {
+    color: rgba(255, 255, 255, .9);
+    text-shadow: .08em 0px rgba(124, 247, 244, .5);
+    font-family: "경기천년제목", Bold;
+}
+
+
+/* BACKGROUND PHASE */
+.shittim-background {
+    position: relative;
+    background: radial-gradient(ellipse at left bottom, #fae1e4, transparent 80%),
+                radial-gradient(ellipse 100% 200% at right bottom, #fae1e4, transparent 35%),
+                #70c9f3;
+}
+
+.shittim-background-body {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.shittim-background-chroma {
+    background: radial-gradient(ellipse at left bottom, #fae1e4, transparent 80%),
+                radial-gradient(ellipse 100% 200% at right bottom, #fae1e4, transparent 35%),
+                #e62424;
+}
+
+.shittim-background-chroma-animation {
+    background: radial-gradient(ellipse at left bottom, #fae1e4, transparent 80%),
+                radial-gradient(ellipse 100% 200% at right bottom, #fae1e4, transparent 35%),
+                #e62424;
+    animation: shittim-background-chroma-keyframe ease 1.5s;
+}
+
+.shittim-background-grid {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url("./res/grid.svg") repeat center;
+    background-size: 150px;
+}
+
+.shittim-background-trinity {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url("./res/trinity.svg") repeat center;
+    background-size: 900px auto;
+}
+
+
+/* ANIMATION PHASE */
+@keyframes shittim-background-chroma-keyframe {
+    0% {
+        background: radial-gradient(ellipse at left bottom, #fae1e4, transparent 80%),
+                    radial-gradient(ellipse 100% 200% at right bottom, #fae1e4, transparent 35%),
+                    #70c9f3;
+    }
+
+    100% {
+        background: radial-gradient(ellipse at left bottom, #fae1e4, transparent 80%),
+                    radial-gradient(ellipse 100% 200% at right bottom, #fae1e4, transparent 35%),
+                    #e62424;
+    }
+}
+
+/* TRANSITION PHASE */

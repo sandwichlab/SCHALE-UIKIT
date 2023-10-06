@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_layer_1" data-name="Layer A1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-6 {
+        opacity: .7;
+      }
+
+      .cls-2 {
+        opacity: .6;
+        stroke-width: .5px;
+      }
+
+      .cls-3 {
+        stroke: #63e2f7;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: .3px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        opacity: .5;
+      }
+
+      .cls-6 {
+        stroke: #4bd8f9;
+        stroke-width: 1.7px;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="50" y1="43" x2="50" y2="57"/>
+  <line class="cls-1" x1="57" y1="50" x2="43" y2="50"/>
+  <line class="cls-5" x1="50" y1="40" x2="50" y2="0"/>
+  <line class="cls-5" x1="0" y1="50" x2="40" y2="50"/>
+  <line class="cls-5" x1="60" y1="50" x2="100" y2="50"/>
+  <line class="cls-5" x1="50" y1="100" x2="50" y2="60"/>
+  <rect class="cls-2" x="24.75" y="39.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="9.75" y="39.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="39.75" y="39.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="24.75" y="24.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="9.75" y="24.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="39.75" y="24.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="24.75" y="9.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="9.75" y="9.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="39.75" y="9.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="74.75" y="39.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="59.75" y="39.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="89.75" y="39.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="74.75" y="24.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="59.75" y="24.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="89.75" y="24.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="74.75" y="9.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="59.75" y="9.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="89.75" y="9.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="24.75" y="89.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="9.75" y="89.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="39.75" y="89.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="24.75" y="74.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="9.75" y="74.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="39.75" y="74.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="24.75" y="59.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="9.75" y="59.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="39.75" y="59.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="74.75" y="89.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="59.75" y="89.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="89.75" y="89.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="74.75" y="74.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="59.75" y="74.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="89.75" y="74.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="74.75" y="59.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="59.75" y="59.75" width=".5" height=".5"/>
+  <rect class="cls-2" x="89.75" y="59.75" width=".5" height=".5"/>
+  <line class="cls-3" x1="99" y1="92" x2="99" y2="7"/>
+  <line class="cls-6" x1="100" y1="99" x2="94.5" y2="99"/>
+  <line class="cls-6" x1="99" y1="100" x2="99" y2="94.5"/>
+  <line class="cls-6" x1="99" y1="4" x2="99" y2="0"/>
+  <line class="cls-6" x1="4" y1="99" x2="0" y2="99"/>
+  <line class="cls-4" x1="98.4" y1="100" x2="98.4" y2="0"/>
+  <line class="cls-3" x1="7" y1="99" x2="92" y2="99"/>
+  <line class="cls-4" x1="0" y1="98.4" x2="100" y2="98.4"/>
+</svg>
